@@ -45,7 +45,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Posts posts={posts} likePosts={posts.like} />
+      <Posts likePost={likePost} posts={posts} />
       <SearchBar searchData={searchData} addSearchData={addSearchData} />
 
       {/* Add SearchBar and Posts here to render them */}
